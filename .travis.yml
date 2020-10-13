@@ -7,4 +7,4 @@ before_install:
   - docker build -t kukoldnet/course -f Dockerfile.dev .
 
 script:
-  - docker run kukoldnet/course yarn test --coverage
+  - docker run kukoldnet/course yarn test
