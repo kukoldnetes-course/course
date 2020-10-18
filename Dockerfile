@@ -8,7 +8,7 @@ RUN npm install
 
 COPY . .
 
-CMD ["yarn", "build"]
+RUN yarn build
 
 FROM nginx
 
